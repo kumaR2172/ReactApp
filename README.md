@@ -35,6 +35,15 @@ The application follows React best practices with functional components, proper 
 ### Note: 
 When trying to running this application on other system , please installing the required dependencies, node_modules and packages and make sure the tailwind config file in the Root directory.
 
+## Screenshots:
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/d80b5538-7386-4d42-9509-dc4ec3b37751" />
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/72796013-2f2f-4165-843f-68bf8257a470" />
+<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/b7806f34-89ed-413b-9169-c2805c5c25b9" />
+
+
+
+
+
 
 ### `npm start`
 
@@ -44,10 +53,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
