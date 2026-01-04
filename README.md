@@ -1,10 +1,41 @@
-# Getting Started with Create React App
+# Getting Started with Create React App- using npx create-react-app quiz-exam-system
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Key Features
 
-## Available Scripts
+Key Features:
 
-In the project directory, you can run:
+I have created the quiz application containing some React and Javascript questions. using React, Javascript and ES6+ features and for the responsive design using Tailwind CSS.
+
+Hooks used:
+I'm used useQuizManager hook for centralized state logic 
+React Hooks (useState, useEffect, useCallback, useMemo)  and created saparate moduler components and tried to handle the unnecessary re-renders.
+
+Adding some core Functionality:
+Welcome screen with some instructions and countdown timer (30 minutes)
+One question at a time with navigation
+Question navigation grid showing answered/unanswered status
+Auto-submit when time expires
+Show the results screen with detailed review
+
+Using separate Component for each functionality :
+WelcomeScreen.jsx
+ExamInterface.jsx
+QuestionDisplay.jsx
+QuestionNavigation.jsx 
+Timer.jsx
+ResultsScreen.jsx - It will show the Score summary and detailed review.
+
+Technical Highlights:
+Async data loading with loading/error states
+Mock API simulation with network delay
+Proper cleanup of timers with useEffect hook
+Used Tailwind CSS
+Accessible UI with proper semantic HTML
+
+The application follows React best practices with functional components, proper hook usage.
+
+Note: When trying to running this application on other system , please installing the required dependencies, node_modules and packages and make sure the tailwind config file in the Root directory.
+
 
 ### `npm start`
 
