@@ -2,22 +2,20 @@
 
 ## Key Features
 
-Key Features:
-
 I have created the quiz application containing some React and Javascript questions. using React, Javascript and ES6+ features and for the responsive design using Tailwind CSS.
 
-Hooks used:
+## Hooks used:
 I'm used useQuizManager hook for centralized state logic 
 React Hooks (useState, useEffect, useCallback, useMemo)  and created saparate moduler components and tried to handle the unnecessary re-renders.
 
-Adding some core Functionality:
+### Adding some core Functionality:
 Welcome screen with some instructions and countdown timer (30 minutes)
 One question at a time with navigation
 Question navigation grid showing answered/unanswered status
 Auto-submit when time expires
 Show the results screen with detailed review
 
-Using separate Component for each functionality :
+### Using separate Component for each functionality :
 WelcomeScreen.jsx
 ExamInterface.jsx
 QuestionDisplay.jsx
@@ -25,7 +23,7 @@ QuestionNavigation.jsx
 Timer.jsx
 ResultsScreen.jsx - It will show the Score summary and detailed review.
 
-Technical Highlights:
+### Technical Highlights:
 Async data loading with loading/error states
 Mock API simulation with network delay
 Proper cleanup of timers with useEffect hook
@@ -34,7 +32,8 @@ Accessible UI with proper semantic HTML
 
 The application follows React best practices with functional components, proper hook usage.
 
-Note: When trying to running this application on other system , please installing the required dependencies, node_modules and packages and make sure the tailwind config file in the Root directory.
+### Note: 
+When trying to running this application on other system , please installing the required dependencies, node_modules and packages and make sure the tailwind config file in the Root directory.
 
 
 ### `npm start`
@@ -60,7 +59,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -69,12 +68,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
